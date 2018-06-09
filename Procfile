@@ -1,1 +1,1 @@
-worker: python3 pathbot.py
+worker: python3 bot.py
