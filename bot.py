@@ -14,8 +14,8 @@ async def test(ctx):
  
 @client.event
 async def on_ready():
-print('The Cannons Are Ready To Fire!!')
-print('Not Yet Megaman 11')
+print("The Cannons Are Ready To Fire!!")
+print("Not Yet Megaman 11")
 
 bot.add_command(test)
 client.run('NDU0NzcxMjAxMzM2ODAzMzQw.DfymaQ.6TpgZjXC83d7I0XrCz4sU6LQvTs')
