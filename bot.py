@@ -9,11 +9,10 @@ client = discord.Client()
 client = commands.Bot(command_prefix='.')
 
 @commands.command()
-async def test(ctx):
+async def test(ctx, arg):
    await ctx.send(arg)
- commands.add_command(test)
 
-@client.event
+   @client.event
 async def on_ready():
   print('i am ready')
 
