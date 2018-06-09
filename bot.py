@@ -11,7 +11,7 @@ client = commands.Bot(command_prefix='.')
 @commands.command()
 async def test(ctx):
    await ctx.send(arg)
- command.add_command(test)
+ client.add_command(test)
 
 @client.event
 async def on_ready():
