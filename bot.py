@@ -16,4 +16,4 @@ async def test(ctx, arg):
 async def on_ready():
 print("i am ready")
 
-client.run('NDU0NzcxMjAxMzM2ODAzMzQw.DfymaQ.6TpgZjXC83d7I0XrCz4sU6LQvTs')
+client.run('NDU0NzcxMjAxMzM2ODAzMzQw.DfzVcg.BuwT4txMrokDL_vrKFLfeTMYrXU')
