@@ -12,8 +12,8 @@ client = commands.Bot(command_prefix='.')
 async def test(ctx, arg):
    await ctx.send(arg)
 
-   @client.event
+@client.event
 async def on_ready():
-  print('i am ready')
+print('i am ready')
 
 client.run('NDU0NzcxMjAxMzM2ODAzMzQw.DfymaQ.6TpgZjXC83d7I0XrCz4sU6LQvTs')
