@@ -6,7 +6,7 @@ import asyncio
 
 client = discord.Client()
 
-bot = commands.bot(command_prefix='.')
+client = commands.bot(command_prefix='.')
 
 @bot.command()
 async def test(ctx):
