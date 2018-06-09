@@ -8,6 +8,10 @@ client = discord.Client()
 
 bot = commands.bot(command_prefix='.')
 
+@bot.command()
+async def test(ctx):
+    pass
+ 
 @client.event
 async def on_ready():
 print('The Cannons Are Ready To Fire!!')
