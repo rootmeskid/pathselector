@@ -8,7 +8,7 @@ client = discord.Client()
 
 client = commands.Bot(command_prefix='.')
 
-@bot.command()
+@commands.command()
 async def test(ctx):
    await ctx.send(arg)
  
